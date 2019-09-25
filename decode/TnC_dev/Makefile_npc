@@ -1,0 +1,74 @@
+# Project: test_NPCManager
+# Makefile created by Dev-C++ 4.9.9.0
+
+CPP  = g++
+CC   = gcc
+WINDRES = windres.exe
+RES  = 
+OBJ  = test_npcmanager.o FontManager/fontmanager.o VSFInterface/vsfi_create_hash.o VSFInterface/vsfi_hash.o VSFInterface/vsfi_indexage_pal.o VSFInterface/vsfi_indexage_rep.o VSFInterface/vsfi_indexage_spr.o VSFInterface/vsfi_palettes.o VSFInterface/vsfi_read_sprite.o VSFInterface/vsfi_save_bmp.o VSFInterface/vsfi_sprites.o VSFInterface/vsfinterface.o NPCManager/npcmanager.o NPCManager/npc_config.o NPCManager/npc_ajout.o NPCManager/npc_draw.o $(RES)
+LINKOBJ  = test_npcmanager.o FontManager/fontmanager.o VSFInterface/vsfi_create_hash.o VSFInterface/vsfi_hash.o VSFInterface/vsfi_indexage_pal.o VSFInterface/vsfi_indexage_rep.o VSFInterface/vsfi_indexage_spr.o VSFInterface/vsfi_palettes.o VSFInterface/vsfi_read_sprite.o VSFInterface/vsfi_save_bmp.o VSFInterface/vsfi_sprites.o VSFInterface/vsfinterface.o NPCManager/npcmanager.o NPCManager/npc_config.o NPCManager/npc_ajout.o NPCManager/npc_draw.o $(RES)
+LIBS =  -lm -lSDLmain -lSDL -lSDL_image -pthread
+INCS =  
+CXXINCS = 
+BIN  = test_NPCManager
+CXXFLAGS = $(CXXINCS) -g -Wall -Wextra -Werror
+CFLAGS = $(INCS)  
+
+.PHONY: all all-before all-after clean clean-custom
+
+all: all-before test_NPCManager all-after
+
+
+clean: clean-custom
+	rm -f $(OBJ) $(BIN)
+
+$(BIN): $(OBJ)
+	$(CPP) $(LINKOBJ) -o "test_NPCManager" $(LIBS)
+
+test_npcmanager.o: test_npcmanager.cpp
+	$(CPP) -c test_npcmanager.cpp -o test_npcmanager.o $(CXXFLAGS)
+
+FontManager/fontmanager.o: FontManager/fontmanager.cpp
+	$(CPP) -c FontManager/fontmanager.cpp -o FontManager/fontmanager.o $(CXXFLAGS)
+
+VSFInterface/vsfi_create_hash.o: VSFInterface/vsfi_create_hash.cpp
+	$(CPP) -c VSFInterface/vsfi_create_hash.cpp -o VSFInterface/vsfi_create_hash.o $(CXXFLAGS)
+
+VSFInterface/vsfi_hash.o: VSFInterface/vsfi_hash.cpp
+	$(CPP) -c VSFInterface/vsfi_hash.cpp -o VSFInterface/vsfi_hash.o $(CXXFLAGS)
+
+VSFInterface/vsfi_indexage_pal.o: VSFInterface/vsfi_indexage_pal.cpp
+	$(CPP) -c VSFInterface/vsfi_indexage_pal.cpp -o VSFInterface/vsfi_indexage_pal.o $(CXXFLAGS)
+
+VSFInterface/vsfi_indexage_rep.o: VSFInterface/vsfi_indexage_rep.cpp
+	$(CPP) -c VSFInterface/vsfi_indexage_rep.cpp -o VSFInterface/vsfi_indexage_rep.o $(CXXFLAGS)
+
+VSFInterface/vsfi_indexage_spr.o: VSFInterface/vsfi_indexage_spr.cpp
+	$(CPP) -c VSFInterface/vsfi_indexage_spr.cpp -o VSFInterface/vsfi_indexage_spr.o $(CXXFLAGS)
+
+VSFInterface/vsfi_palettes.o: VSFInterface/vsfi_palettes.cpp
+	$(CPP) -c VSFInterface/vsfi_palettes.cpp -o VSFInterface/vsfi_palettes.o $(CXXFLAGS)
+
+VSFInterface/vsfi_read_sprite.o: VSFInterface/vsfi_read_sprite.cpp
+	$(CPP) -c VSFInterface/vsfi_read_sprite.cpp -o VSFInterface/vsfi_read_sprite.o $(CXXFLAGS)
+
+VSFInterface/vsfi_save_bmp.o: VSFInterface/vsfi_save_bmp.cpp
+	$(CPP) -c VSFInterface/vsfi_save_bmp.cpp -o VSFInterface/vsfi_save_bmp.o $(CXXFLAGS)
+
+VSFInterface/vsfi_sprites.o: VSFInterface/vsfi_sprites.cpp
+	$(CPP) -c VSFInterface/vsfi_sprites.cpp -o VSFInterface/vsfi_sprites.o $(CXXFLAGS)
+
+VSFInterface/vsfinterface.o: VSFInterface/vsfinterface.cpp
+	$(CPP) -c VSFInterface/vsfinterface.cpp -o VSFInterface/vsfinterface.o $(CXXFLAGS)
+
+NPCManager/npcmanager.o: NPCManager/npcmanager.cpp
+	$(CPP) -c NPCManager/npcmanager.cpp -o NPCManager/npcmanager.o $(CXXFLAGS)
+
+NPCManager/npc_config.o: NPCManager/npc_config.cpp
+	$(CPP) -c NPCManager/npc_config.cpp -o NPCManager/npc_config.o $(CXXFLAGS)
+
+NPCManager/npc_ajout.o: NPCManager/npc_ajout.cpp
+	$(CPP) -c NPCManager/npc_ajout.cpp -o NPCManager/npc_ajout.o $(CXXFLAGS)
+
+NPCManager/npc_draw.o: NPCManager/npc_draw.cpp
+	$(CPP) -c NPCManager/npc_draw.cpp -o NPCManager/npc_draw.o $(CXXFLAGS)

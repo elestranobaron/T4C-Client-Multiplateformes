@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="TnC_dev"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/solid/VboxShar/T4C2TnC/ok/TnC_dev/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/solid/VboxShar/T4C2TnC/ok/TnC_dev/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/solid/VboxShar/T4C2TnC/ok/TnC_dev/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/solid/VboxShar/T4C2TnC/ok/TnC_dev/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/solid/VboxShar/T4C2TnC/ok/TnC_dev/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/solid/VboxShar/T4C2TnC/ok/TnC_dev/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/solid/VboxShar/T4C2TnC/ok/TnC_dev/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/solid/VboxShar/T4C2TnC/ok/TnC_dev/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/solid/VboxShar/T4C2TnC/ok/TnC_dev/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/solid/VboxShar/T4C2TnC/ok/TnC_dev/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/solid/VboxShar/T4C2TnC/ok/TnC_dev/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/solid/VboxShar/T4C2TnC/ok/TnC_dev/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/solid/VboxShar/T4C2TnC/ok/TnC_dev/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/solid/VboxShar/T4C2TnC/ok/TnC_dev/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/solid/VboxShar/T4C2TnC/ok/TnC_dev/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TnC_dev">
+				<Option output="/home/solid/VboxShar/T4C2TnC/ok/TnC_dev/cmake-build-debug/TnC_dev" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/solid/VboxShar/T4C2TnC/ok/TnC_dev/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/solid/VboxShar/T4C2TnC/ok/TnC_dev/cmake-build-debug/Makefile&quot;  VERBOSE=1 TnC_dev"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/solid/VboxShar/T4C2TnC/ok/TnC_dev/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/solid/VboxShar/T4C2TnC/ok/TnC_dev/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/solid/VboxShar/T4C2TnC/ok/TnC_dev/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TnC_dev/fast">
+				<Option output="/home/solid/VboxShar/T4C2TnC/ok/TnC_dev/cmake-build-debug/TnC_dev" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/solid/VboxShar/T4C2TnC/ok/TnC_dev/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/solid/VboxShar/T4C2TnC/ok/TnC_dev/cmake-build-debug/Makefile&quot;  VERBOSE=1 TnC_dev/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/solid/VboxShar/T4C2TnC/ok/TnC_dev/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/solid/VboxShar/T4C2TnC/ok/TnC_dev/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/solid/VboxShar/T4C2TnC/ok/TnC_dev/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/solid/VboxShar/T4C2TnC/ok/TnC_dev/FontManager/fontmanager.cpp">
+			<Option target="TnC_dev"/>
+		</Unit>
+		<Unit filename="/home/solid/VboxShar/T4C2TnC/ok/TnC_dev/FontManager/fontmanager.h">
+			<Option target="TnC_dev"/>
+		</Unit>
+		<Unit filename="/home/solid/VboxShar/T4C2TnC/ok/TnC_dev/MapInterface/mapi_full_redraw.cpp">
+			<Option target="TnC_dev"/>
+		</Unit>
+		<Unit filename="/home/solid/VboxShar/T4C2TnC/ok/TnC_dev/MapInterface/mapi_get_map.cpp">
+			<Option target="TnC_dev"/>
+		</Unit>
+		<Unit filename="/home/solid/VboxShar/T4C2TnC/ok/TnC_dev/MapInterface/mapi_move_map.cpp">
+			<Option target="TnC_dev"/>
+		</Unit>
+		<Unit filename="/home/solid/VboxShar/T4C2TnC/ok/TnC_dev/MapInterface/mapinterface.cpp">
+			<Option target="TnC_dev"/>
+		</Unit>
+		<Unit filename="/home/solid/VboxShar/T4C2TnC/ok/TnC_dev/MapInterface/mapinterface.h">
+			<Option target="TnC_dev"/>
+		</Unit>
+		<Unit filename="/home/solid/VboxShar/T4C2TnC/ok/TnC_dev/NPCManager/npc_ajout.cpp">
+			<Option target="TnC_dev"/>
+		</Unit>
+		<Unit filename="/home/solid/VboxShar/T4C2TnC/ok/TnC_dev/NPCManager/npc_config.cpp">
+			<Option target="TnC_dev"/>
+		</Unit>
+		<Unit filename="/home/solid/VboxShar/T4C2TnC/ok/TnC_dev/NPCManager/npc_draw.cpp">
+			<Option target="TnC_dev"/>
+		</Unit>
+		<Unit filename="/home/solid/VboxShar/T4C2TnC/ok/TnC_dev/NPCManager/npcmanager.cpp">
+			<Option target="TnC_dev"/>
+		</Unit>
+		<Unit filename="/home/solid/VboxShar/T4C2TnC/ok/TnC_dev/NPCManager/npcmanager.h">
+			<Option target="TnC_dev"/>
+		</Unit>
+		<Unit filename="/home/solid/VboxShar/T4C2TnC/ok/TnC_dev/TextManager/textmanager.cpp">
+			<Option target="TnC_dev"/>
+		</Unit>
+		<Unit filename="/home/solid/VboxShar/T4C2TnC/ok/TnC_dev/TextManager/textmanager.h">
+			<Option target="TnC_dev"/>
+		</Unit>
+		<Unit filename="/home/solid/VboxShar/T4C2TnC/ok/TnC_dev/VSFInterface/vsfi_create_hash.cpp">
+			<Option target="TnC_dev"/>
+		</Unit>
+		<Unit filename="/home/solid/VboxShar/T4C2TnC/ok/TnC_dev/VSFInterface/vsfi_hash.cpp">
+			<Option target="TnC_dev"/>
+		</Unit>
+		<Unit filename="/home/solid/VboxShar/T4C2TnC/ok/TnC_dev/VSFInterface/vsfi_indexage_pal.cpp">
+			<Option target="TnC_dev"/>
+		</Unit>
+		<Unit filename="/home/solid/VboxShar/T4C2TnC/ok/TnC_dev/VSFInterface/vsfi_indexage_rep.cpp">
+			<Option target="TnC_dev"/>
+		</Unit>
+		<Unit filename="/home/solid/VboxShar/T4C2TnC/ok/TnC_dev/VSFInterface/vsfi_indexage_spr.cpp">
+			<Option target="TnC_dev"/>
+		</Unit>
+		<Unit filename="/home/solid/VboxShar/T4C2TnC/ok/TnC_dev/VSFInterface/vsfi_palettes.cpp">
+			<Option target="TnC_dev"/>
+		</Unit>
+		<Unit filename="/home/solid/VboxShar/T4C2TnC/ok/TnC_dev/VSFInterface/vsfi_read_sprite.cpp">
+			<Option target="TnC_dev"/>
+		</Unit>
+		<Unit filename="/home/solid/VboxShar/T4C2TnC/ok/TnC_dev/VSFInterface/vsfi_save_bmp.cpp">
+			<Option target="TnC_dev"/>
+		</Unit>
+		<Unit filename="/home/solid/VboxShar/T4C2TnC/ok/TnC_dev/VSFInterface/vsfi_sprites.cpp">
+			<Option target="TnC_dev"/>
+		</Unit>
+		<Unit filename="/home/solid/VboxShar/T4C2TnC/ok/TnC_dev/VSFInterface/vsfinterface.cpp">
+			<Option target="TnC_dev"/>
+		</Unit>
+		<Unit filename="/home/solid/VboxShar/T4C2TnC/ok/TnC_dev/VSFInterface/vsfinterface.h">
+			<Option target="TnC_dev"/>
+		</Unit>
+		<Unit filename="/home/solid/VboxShar/T4C2TnC/ok/TnC_dev/VSFInterface/vsfkey.h">
+			<Option target="TnC_dev"/>
+		</Unit>
+		<Unit filename="/home/solid/VboxShar/T4C2TnC/ok/TnC_dev/funfact.c">
+			<Option target="TnC_dev"/>
+		</Unit>
+		<Unit filename="/home/solid/VboxShar/T4C2TnC/ok/TnC_dev/test_mapinterface.cpp">
+			<Option target="TnC_dev"/>
+		</Unit>
+		<Unit filename="/home/solid/VboxShar/T4C2TnC/ok/TnC_dev/test_npcmanager.cpp">
+			<Option target="TnC_dev"/>
+		</Unit>
+		<Unit filename="/home/solid/VboxShar/T4C2TnC/ok/TnC_dev/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

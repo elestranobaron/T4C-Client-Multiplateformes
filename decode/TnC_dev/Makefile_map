@@ -1,0 +1,86 @@
+# Project: MAPInterface
+# Makefile created by Dev-C++ 4.9.9.0
+
+CPP  = g++ -D__DEBUG__
+CC   = gcc -D__DEBUG__
+WINDRES = windres.exe
+RES  = 
+OBJ  = test_mapinterface.o VSFInterface/vsfi_indexage_pal.o VSFInterface/vsfi_indexage_rep.o VSFInterface/vsfi_indexage_spr.o VSFInterface/vsfi_read_sprite.o VSFInterface/vsfi_save_bmp.o VSFInterface/vsfinterface.o VSFInterface/vsfi_palettes.o FontManager/fontmanager.o VSFInterface/vsfi_hash.o VSFInterface/vsfi_sprites.o MapInterface/mapinterface.o MapInterface/mapi_get_map.o MapInterface/mapi_full_redraw.o VSFInterface/vsfi_create_hash.o TextManager/textmanager.o NPCManager/npc_config.o NPCManager/npc_draw.o NPCManager/npcmanager.o NPCManager/npc_ajout.o $(RES)
+LINKOBJ  = test_mapinterface.o VSFInterface/vsfi_indexage_pal.o VSFInterface/vsfi_indexage_rep.o VSFInterface/vsfi_indexage_spr.o VSFInterface/vsfi_read_sprite.o VSFInterface/vsfi_save_bmp.o VSFInterface/vsfinterface.o VSFInterface/vsfi_palettes.o FontManager/fontmanager.o VSFInterface/vsfi_hash.o VSFInterface/vsfi_sprites.o MapInterface/mapinterface.o MapInterface/mapi_get_map.o MapInterface/mapi_full_redraw.o VSFInterface/vsfi_create_hash.o TextManager/textmanager.o NPCManager/npc_config.o NPCManager/npc_draw.o NPCManager/npcmanager.o NPCManager/npc_ajout.o $(RES)
+LIBS =  -lSDLmain -lSDL -lSDL_image -g3 -pthread
+INCS =  
+CXXINCS =  
+BIN  = MAPI
+CXXFLAGS = $(CXXINCS) -g   -g3 -Wall -Wextra -Werror #-Wno-write-strings
+CFLAGS = $(INCS)   -g3
+
+.PHONY: all all-before all-after clean clean-custom
+
+all: all-before MAPI all-after
+
+
+clean: clean-custom
+	rm -f $(OBJ) $(BIN)
+
+$(BIN): $(OBJ)
+	$(CPP) $(LINKOBJ) -o "MAPI" $(LIBS)
+
+test_mapinterface.o: test_mapinterface.cpp
+	$(CPP) -c test_mapinterface.cpp -o test_mapinterface.o $(CXXFLAGS)
+
+VSFInterface/vsfi_indexage_pal.o: VSFInterface/vsfi_indexage_pal.cpp
+	$(CPP) -c VSFInterface/vsfi_indexage_pal.cpp -o VSFInterface/vsfi_indexage_pal.o $(CXXFLAGS)
+
+VSFInterface/vsfi_indexage_rep.o: VSFInterface/vsfi_indexage_rep.cpp
+	$(CPP) -c VSFInterface/vsfi_indexage_rep.cpp -o VSFInterface/vsfi_indexage_rep.o $(CXXFLAGS)
+
+VSFInterface/vsfi_indexage_spr.o: VSFInterface/vsfi_indexage_spr.cpp
+	$(CPP) -c VSFInterface/vsfi_indexage_spr.cpp -o VSFInterface/vsfi_indexage_spr.o $(CXXFLAGS)
+
+VSFInterface/vsfi_read_sprite.o: VSFInterface/vsfi_read_sprite.cpp
+	$(CPP) -c VSFInterface/vsfi_read_sprite.cpp -o VSFInterface/vsfi_read_sprite.o $(CXXFLAGS)
+
+VSFInterface/vsfi_save_bmp.o: VSFInterface/vsfi_save_bmp.cpp
+	$(CPP) -c VSFInterface/vsfi_save_bmp.cpp -o VSFInterface/vsfi_save_bmp.o $(CXXFLAGS)
+
+VSFInterface/vsfinterface.o: VSFInterface/vsfinterface.cpp
+	$(CPP) -c VSFInterface/vsfinterface.cpp -o VSFInterface/vsfinterface.o $(CXXFLAGS)
+
+VSFInterface/vsfi_palettes.o: VSFInterface/vsfi_palettes.cpp
+	$(CPP) -c VSFInterface/vsfi_palettes.cpp -o VSFInterface/vsfi_palettes.o $(CXXFLAGS)
+
+FontManager/fontmanager.o: FontManager/fontmanager.cpp
+	$(CPP) -c FontManager/fontmanager.cpp -o FontManager/fontmanager.o $(CXXFLAGS)
+
+VSFInterface/vsfi_hash.o: VSFInterface/vsfi_hash.cpp
+	$(CPP) -c VSFInterface/vsfi_hash.cpp -o VSFInterface/vsfi_hash.o $(CXXFLAGS)
+
+VSFInterface/vsfi_sprites.o: VSFInterface/vsfi_sprites.cpp
+	$(CPP) -c VSFInterface/vsfi_sprites.cpp -o VSFInterface/vsfi_sprites.o $(CXXFLAGS)
+
+MapInterface/mapinterface.o: MapInterface/mapinterface.cpp
+	$(CPP) -c MapInterface/mapinterface.cpp -o MapInterface/mapinterface.o $(CXXFLAGS)
+
+MapInterface/mapi_get_map.o: MapInterface/mapi_get_map.cpp
+	$(CPP) -c MapInterface/mapi_get_map.cpp -o MapInterface/mapi_get_map.o $(CXXFLAGS)
+
+MapInterface/mapi_full_redraw.o: MapInterface/mapi_full_redraw.cpp
+	$(CPP) -c MapInterface/mapi_full_redraw.cpp -o MapInterface/mapi_full_redraw.o $(CXXFLAGS)
+
+VSFInterface/vsfi_create_hash.o: VSFInterface/vsfi_create_hash.cpp
+	$(CPP) -c VSFInterface/vsfi_create_hash.cpp -o VSFInterface/vsfi_create_hash.o $(CXXFLAGS)
+
+TextManager/textmanager.o: TextManager/textmanager.cpp
+	$(CPP) -c TextManager/textmanager.cpp -o TextManager/textmanager.o $(CXXFLAGS)
+
+NPCManager/npc_config.o: NPCManager/npc_config.cpp
+	$(CPP) -c NPCManager/npc_config.cpp -o NPCManager/npc_config.o $(CXXFLAGS)
+
+NPCManager/npc_draw.o: NPCManager/npc_draw.cpp
+	$(CPP) -c NPCManager/npc_draw.cpp -o NPCManager/npc_draw.o $(CXXFLAGS)
+
+NPCManager/npcmanager.o: NPCManager/npcmanager.cpp
+	$(CPP) -c NPCManager/npcmanager.cpp -o NPCManager/npcmanager.o $(CXXFLAGS)
+
+NPCManager/npc_ajout.o: NPCManager/npc_ajout.cpp
+	$(CPP) -c NPCManager/npc_ajout.cpp -o NPCManager/npc_ajout.o $(CXXFLAGS)

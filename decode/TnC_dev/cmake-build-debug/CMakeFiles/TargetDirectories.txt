@@ -1,0 +1,3 @@
+/home/solid/VboxShar/T4C2TnC/ok/TnC_dev/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/solid/VboxShar/T4C2TnC/ok/TnC_dev/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/solid/VboxShar/T4C2TnC/ok/TnC_dev/cmake-build-debug/CMakeFiles/TnC_dev.dir

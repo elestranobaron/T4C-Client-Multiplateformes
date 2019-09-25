@@ -1,0 +1,70 @@
+Object_LightHaven_Crypt$1
+Tapisall 1$1
+BlackSmithForgery$1
+Cemetery Gates >$1
+Gate$1
+Shito 2$1
+Tomb Plaque$1
+Chairs 1$1
+Archer$1
+ArmorOnARack$1
+WeaponRacks 2$1
+Bed Double Type 1$1
+Oven$1
+FirePlace1$1
+Bed Simple$1
+Autel$1
+TapisRouge 1$1
+TapisRouge 2$1
+TapisRouge 3$1
+Shito 6$1
+BrickWall 1#0#-100
+BrickWall 2#0#-100
+BrickWall 3#0#-100
+BrickDarkWall 1#0#-100
+BrickDarkWall 2#0#-100
+BrickDarkWall 3#0#-100
+BrickWallCornerV#0#-100
+BrickWallCorner2#5#-100
+BrickWallCorner#0#-100
+BrickWallCornerN#0#-94
+BrickWallCornerTSW#0#-100
+BrickWallCornerTNE#0#-100
+BrickWallCornerTSE#0#-100
+BrickDarkWallDoor 1#0#-95
+BrickDarkWallDoor 2#0#-100
+BrickWallCornerTNW#0#-100
+BrickWallCornerX#0#-100
+BrickDarkWallWindow 1#0#-100
+BrickDarkWallWindow 2#0#-100
+BrickDarkWallWindow 3#0#-100
+BrickWallDoor 1#0#-100
+BrickWallDoor 2#0#-94
+BrickWallWindow 1#0#-100
+BrickWallWindow 2#0#-100
+BrickWallWindow 3#0#-100
+Tour#-50#-140
+GateM#0#32
+FontaineToBeClipped#-30#-30
+Shito 2#0#-15
+Shito 2M#0#-15
+StuccoDarkSmallWallB#0#-100
+StuccoMainWall 1#0#-100
+StuccoMainWall 2#0#-100
+StuccoDarkWallDoor 1#0#-100
+StuccoDarkWallDoor 2#0#-100
+StuccoCornerN#0#-92
+StuccoCorner#0#-100
+StuccoCorner2#0#-100
+StuccoCornerV#0#-100
+StuccoCornerTSW#0#-100
+StuccoMainSmallWallC#0#-100
+StuccoCornerTNW#0#-100
+StuccoCornerTSE#0#-100
+StuccoMainSmallWallB#0#-100
+StuccoMainWallDoor 2#0#-100
+StuccoMainWallDoor 1#0#-100
+StuccoMainWindowA#0#-100
+StuccoDarkWindowA#0#-100
+Cemetery Gates >M#10#0
+Cemetery Gates ^#0#10

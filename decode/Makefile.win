@@ -1,0 +1,44 @@
+# Project: Convertisseur
+# Makefile created by Dev-C++ 4.9.9.0
+
+CPP  = g++.exe
+CC   = gcc.exe
+WINDRES = windres.exe
+RES  = 
+OBJ  = convertisseur.o extraction_sons.o extraction_sprites.o extraction_maps.o save_bmp.o extraction_maps_conv.o $(RES)
+LINKOBJ  = convertisseur.o extraction_sons.o extraction_sprites.o extraction_maps.o save_bmp.o extraction_maps_conv.o $(RES)
+LIBS =  -L"C:/Prog/Env/Dev-Cpp/lib" -L"C:/Prog/lib/GTK-2.2.4/lib" -L"C:/Prog/lib/GTK-2.2.4/lib/gtk-2.0" -L"C:/Prog/lib/glib/lib" -L"C:/Prog/lib/pango/lib" -L"C:/Prog/lib/atk/lib" -L"C:/Prog/lib/libxml2-2.6.9.win32/lib" -L"C:/Prog/lib/iconv/lib" -L"C:/Prog/lib/SDL-1.2.7/lib" -L"C:/Prog/lib/SDL_image-1.2.3/lib" -L"C:/Prog/lib/zlib-1.1.4.win32/lib" -L"C:/Prog/lib/SDL_ttf-2.0.7/lib" -lzlib  
+INCS =  -I"C:/Prog/Env/Dev-Cpp/include"  -I"C:/Prog/lib/GTK-2.2.4/include/gtk-2.0"  -I"C:/Prog/lib/GTK-2.2.4/lib/gtk-2.0/include"  -I"C:/Prog/lib/glib/include/glib-2.0"  -I"C:/Prog/lib/glib/lib/glib-2.0/include"  -I"C:/Prog/lib/pango/include/pango-1.0"  -I"C:/Prog/lib/atk/include/atk-1.0"  -I"C:/Prog/lib/libxml2-2.6.9.win32/include"  -I"C:/Prog/lib/iconv/include"  -I"C:/Prog/lib/SDL-1.2.7/include"  -I"C:/Prog/lib/SDL_image-1.2.3/include"  -I"C:/Prog/lib/zlib-1.1.4.win32/include"  -I"C:/Prog/lib/SDL_ttf-2.0.7/include" 
+CXXINCS =  -I"C:/Prog/lib/SDL-1.2.7/include"  -I"C:/Prog/Env/Dev-Cpp/include"  -I"C:/Prog/Env/Dev-Cpp/include/c++/backward"  -I"C:/Prog/Env/Dev-Cpp/include/c++"  -I"C:/Prog/Env/Dev-Cpp/include/c++/mingw32"  -I"C:/Prog/lib/GTK-2.2.4/include/gtk-2.0"  -I"C:/Prog/lib/GTK-2.2.4/lib/gtk-2.0/include"  -I"C:/Prog/lib/atk/include/atk-1.0"  -I"C:/Prog/lib/glib/include/glib-2.0"  -I"C:/Prog/lib/glib/lib/glib-2.0/include"  -I"C:/Prog/lib/iconv/include"  -I"C:/Prog/lib/intl/include"  -I"C:/Prog/lib/pango/include/pango-1.0"  -I"C:/Prog/lib/libxml2-2.6.9.win32/include"  -I"C:/Prog/lib/SDL_image-1.2.3/include"  -I"C:/Prog/lib/zlib-1.1.4.win32/include"  -I"C:/Prog/lib/SDL_ttf-2.0.7/include" 
+BIN  = Convertisseur.exe
+CXXFLAGS = $(CXXINCS)  
+CFLAGS = $(INCS)  
+
+.PHONY: all all-before all-after clean clean-custom
+
+all: all-before Convertisseur.exe all-after
+
+
+clean: clean-custom
+	rm -f $(OBJ) $(BIN)
+
+$(BIN): $(OBJ)
+	$(CPP) $(LINKOBJ) -o "Convertisseur.exe" $(LIBS)
+
+convertisseur.o: convertisseur.cpp
+	$(CPP) -c convertisseur.cpp -o convertisseur.o $(CXXFLAGS)
+
+extraction_sons.o: extraction_sons.cpp
+	$(CPP) -c extraction_sons.cpp -o extraction_sons.o $(CXXFLAGS)
+
+extraction_sprites.o: extraction_sprites.cpp
+	$(CPP) -c extraction_sprites.cpp -o extraction_sprites.o $(CXXFLAGS)
+
+extraction_maps.o: extraction_maps.cpp
+	$(CPP) -c extraction_maps.cpp -o extraction_maps.o $(CXXFLAGS)
+
+save_bmp.o: save_bmp.cpp
+	$(CPP) -c save_bmp.cpp -o save_bmp.o $(CXXFLAGS)
+
+extraction_maps_conv.o: extraction_maps_conv.cpp
+	$(CPP) -c extraction_maps_conv.cpp -o extraction_maps_conv.o $(CXXFLAGS)
