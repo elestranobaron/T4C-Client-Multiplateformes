@@ -14,6 +14,8 @@ make -f Makefile_npc
 
 ./test_NPCManager
 
+![ Alt text](SDL_monsters.gif) 
+
 make -f Makefile_map
 
 ./MAPI 1000 2000 2
