@@ -1,24 +1,24 @@
 Voir les sprites t4c avec la SDL:
 
-Répertoire decode:
+**Répertoire decode:**
 
-source path_SDL.sh
+[1] source path_SDL.sh
 
-make
+[2] make
 
-./convert2 Game\ Files/ data/
+[3] ./convert2 Game\ Files/ data/
 
-<p>Répertoire TnC_dev:</p>
+**Répertoire TnC_dev:**
 
-make -f Makefile_npc
+[1] make -f Makefile_npc
 
-./test_NPCManager
+[2] ./test_NPCManager
 
 ![ Alt text](SDL_monsters.gif) 
 
-make -f Makefile_map
+[1] make -f Makefile_map
 
-./MAPI 1000 2000 2
+[2] ./MAPI 1000 2000 2
 
 
 ![ Alt text](SDL_maps.gif) 
