@@ -8,7 +8,7 @@ make
 
 ./convert2 Game\ Files/ data/
 
-Répertoire TnC_dev:
+<p>Répertoire TnC_dev:</p>
 
 make -f Makefile_npc
 
