@@ -17,3 +17,5 @@ make -f Makefile_npc
 make -f Makefile_map
 
 ./MAPI 1000 2000 2
+
+vcXsrv server x excellent pour wsl
