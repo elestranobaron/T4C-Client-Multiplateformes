@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 prefix=/home/solid/Desktop/Zone51/T4cClientMultiplateformes/decode/ext/SDL2SDL2-2.0.3
 exec_prefix=${prefix}

@@ -4,7 +4,7 @@
 #include "FontManager/fontmanager.h"
 #include "NPCManager/npcmanager.h"
 #include "TextManager/textmanager.h"
-#include "../ext/SDL2/SDL2_image-2.0.0/include/SDL2/SDL_image.h"
+#include "../ext/SDL2SDL2_image-2.0.0/include/SDL2/SDL_image.h"
 
 #define PATH_SPRITES "../data/sprites/"
 #define PATH_MAPS "../data/maps/"
