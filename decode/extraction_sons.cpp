@@ -24,7 +24,7 @@ decode_wav(char *file, char *out)
    nom[nb_chars] = '\0';
    unsigned long offset;
    fread(&offset, sizeof(int),1,fid);
-   unsigned long taille;
+   unsigned int taille;
    fread(&taille, sizeof(int),1,fid);
    unsigned short freq;
    fread(&freq, sizeof(short), 1,fid);
@@ -33,7 +33,7 @@ decode_wav(char *file, char *out)
    fread(&bps, sizeof(char), 1,fid);
    printf("->Extraction de %s\n",nom);
    int pos = ftell(fid);
-   
+
    char n_nom[255];
    sprintf(n_nom,"%s/%s.wav", out, nom);//double backslash ici aussi du a windobb
    FILE *outfile = fopen(n_nom, "wb");
@@ -94,7 +94,7 @@ extraction_sons(char *src, char *dest)
  printf(">Extraction des sons\n");
  char dest_dir[255];
  sprintf(dest_dir,"%s/sons", dest);//ET ICI AUSSI DBLE SLASH AFTERSS
- if (mkdir(dest_dir, S_IRWXU | S_IRWXG | S_IROTH | S_IXOTH) == -1) //si on peut pas créer
+ if (mkdir(dest_dir, S_IRWXU | S_IRWXG | S_IROTH | S_IXOTH) == -1) //si on peut pas crï¿½er
  {
   if (!opendir(dest_dir))//et qu'il existe pas
   {
@@ -107,7 +107,7 @@ extraction_sons(char *src, char *dest)
  sprintf(file_path, "%s/T4CGameFile.VSB", src);//enlever les deux \\apres le%s
  
  
- //---> Décryptage
+ //---> Dï¿½cryptage
  printf("->Decryptage...\n");
  struct stat sb;
  if (stat(file_path, &sb) == -1) 
@@ -144,7 +144,7 @@ char	*charsoundstr = (char*)malloc(sizeof(char) * 11);
  fclose(fid);
  fclose(fout);
  
- //--> Décodage
+ //--> Dï¿½codage
  decode_wav(charsoundstr, dest_dir);
  
  //Efface fichier temp
