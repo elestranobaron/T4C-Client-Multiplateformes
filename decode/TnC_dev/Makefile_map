@@ -11,7 +11,7 @@ LIBS =  -lSDLmain -lSDL -lSDL2_image -g3 -pthread
 INCS =  
 CXXINCS =  
 BIN  = MAPI
-CXXFLAGS = $(CXXINCS) -g   -g3 -Wall -Wextra -Werror #-Wno-write-strings
+CXXFLAGS = $(CXXINCS) -g   -g3 -Wall -Wextra #-Werror #-Wno-write-strings
 CFLAGS = $(INCS)   -g3
 
 .PHONY: all all-before all-after clean clean-custom
