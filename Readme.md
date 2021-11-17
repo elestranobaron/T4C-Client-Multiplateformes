@@ -1,3 +1,9 @@
+http://tnc.sourceforge.net/ is the Project Origin
+
+Thanks to this guy. If anybody know who he is i would be more than happy to be in touch.
+
+So without further ado
+
 Voir les sprites t4c avec la SDL:
 
 **Répertoire decode:**
